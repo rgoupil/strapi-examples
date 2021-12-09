@@ -7,6 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "debug": "node --inspect=0.0.0.0:9229 ./node_modules/.bin/strapi develop",
     "strapi": "strapi"
   },
   "devDependencies": {},
@@ -14,6 +15,7 @@
     "@strapi/plugin-i18n": "4.0.0",
     "@strapi/plugin-users-permissions": "4.0.0",
     "@strapi/strapi": "4.0.0",
+    "koa-sqlite3-session": "^2.0.0",
     "sqlite3": "5.0.2"
   },
   "author": {
